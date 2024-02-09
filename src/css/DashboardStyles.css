@@ -1,0 +1,158 @@
+/* Dashboard */
+.dashboard {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.content {
+  display: flex;
+  flex: 1;
+}
+
+.mainContent {
+  flex-grow: 1;
+  padding: 20px;
+  background-color: #f0f1fa;
+}
+.title {
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+.topSection {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+}
+
+.upperContent {
+  flex: 1;
+  background-color: #fff;
+  margin-bottom: 25px;
+  margin-top: 25px;
+}
+
+.lowerContent {
+  display: flex;
+  flex: 1;
+}
+
+.lowerLeftContent {
+  flex: 1;
+  background-color: #fff;
+  margin-right: 10px;
+}
+
+.lowerRightContent {
+  flex: 1;
+  background-color: #fff;
+  margin-left: 10px;
+}
+
+.subTitleBar {
+  background-color: #d5d8e0;
+  padding: 1px;
+  height: 50px;
+  margin: 0;
+}
+.subTitleText {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+  font-size: 20px;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table th,
+.table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+.table th {
+  background-color: #0277d1;
+  color: white;
+}
+
+.table tr:nth-child(even) {
+  background-color: #f2f2f2;
+  cursor: pointer;
+}
+
+.table tr:hover {
+  background-color: #ddd;
+}
+.subText {
+  display: flex;
+  color: #808080;
+  align-items: center;
+  margin-left: 10px;
+  font-size: 20px;
+}
+
+/* UserModels */
+.userModel {
+  margin-top: 20px;
+}
+
+.userModel h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.modelTable {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.modelTable th,
+.modelTable td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+.modelTable th {
+  background-color: #0277d1;
+  font-weight: bold;
+  color: #fff;
+}
+.modelTable tbody tr:hover {
+  background-color: #f5f5f5;
+  cursor: pointer;
+}
+
+/* ModelDetail */
+.modelDetails {
+  margin-top: 20px;
+}
+
+.modelDetails h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.detailsTable {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.detailsTable th,
+.detailsTable td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+.detailsTable th {
+  background-color: #0277d1;
+  font-weight: bold;
+  color: #fff;
+}
